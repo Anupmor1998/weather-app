@@ -1,23 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../Temp.css";
-function TempApp() {
-  const [city, setCity] = useState(null);
-  const [search, setSearch] = useState("");
-
-  useEffect(() => {
-    const fetchApi = async () => {
-      const apiKey = "3c9ab84472c05b6f1dcca909970fe924";
-      const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=${apiKey}`;
-
-      const response = await fetch(url);
-      const resJSON = await response.json();
-      setCity(resJSON);
-    };
-    fetchApi();
-  }, [search]);
-  const showWeather = (event) => {
-    setSearch(event.target.value);
-  };
+function TempApp(props) {
+  const { city, search, showWeather, cod, cityName } = props;
   return (
     <>
       <div className="box">
@@ -35,11 +19,11 @@ function TempApp() {
         </button> */}
         {console.log(city)}
 
-        {city && city.cod == "200" ? (
+        {city && cod == "200" ? (
           <div>
             <h2>
               <i className="fas fa-street-view"></i>&nbsp;&nbsp;
-              {city.name}
+              {cityName}
             </h2>
             <div>
               <img

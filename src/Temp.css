@@ -4,9 +4,10 @@
   text-align: center;
   background-color: olivedrab;
   padding: 20px;
-  margin: 100px auto;
+  margin: 100px 30px;
   border-radius: 30px;
   color: beige;
+  display: inline-block;
 }
 
 .inputData {
