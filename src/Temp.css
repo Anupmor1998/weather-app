@@ -1,49 +1,75 @@
 .box {
-  width: 250px;
-  height: 350px;
+  width: 500px;
+  height: 500px;
   text-align: center;
-  background-color: olivedrab;
+  background-color: white;
+  margin: 7em auto;
+  border-radius: 10px;
+  color: black;
+}
+
+.header {
+  background-color: #f27059;
   padding: 20px;
-  margin: 100px 30px;
-  border-radius: 30px;
-  color: beige;
-  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+  color: #edf2f4;
 }
 
 .inputData {
   width: 150px;
   height: 10px;
-  background-color: beige;
+  background-color: #f79d65;
   text-align: center;
   padding: 10px;
   border: none;
   border-radius: 8px;
   font-size: medium;
+  margin: 1.5em auto;
+  outline: none;
 }
 
 .btn {
-  width: 150px;
-  height: 30px;
-  background-color: beige;
-  text-align: center;
-
-  border-radius: 50px;
   font-size: medium;
-  margin-top: 10px;
+  position: relative;
+  right: 30px;
+  color: black;
+  background-color: #f79d65;
   border: none;
+  outline: none;
 }
 .btn:hover {
-  background-color: cadetblue;
+  font-size: medium;
+  position: relative;
+  right: 30px;
+  background-color: #f79d65;
   color: beige;
+  border: none;
 }
-
+h4 {
+  font-weight: normal;
+  text-align: center;
+}
+.para1 {
+  margin: 1em;
+}
 .icon-img {
   width: auto;
   height: auto;
   margin: 5px auto;
   padding: 10px;
 }
-.error-msg {
-  color: yellow;
-  font-size: x-large;
+.mid-section {
+  display: inline-block;
+  margin: 1em 1em;
+}
+.para2 {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+h1 {
+  color: #f79d65;
+  margin-top: 0;
+  font-size: 45px;
 }
