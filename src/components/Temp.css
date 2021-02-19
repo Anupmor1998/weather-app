@@ -1,5 +1,5 @@
 .box {
-  width: 500px;
+  width: 600px;
   height: 500px;
   text-align: center;
   background-color: white;
@@ -72,5 +72,17 @@ h4 {
 h1 {
   color: #f79d65;
   margin-top: 0;
-  font-size: 45px;
+  font-size: 40px;
+}
+
+hr {
+  width: 30em;
+  position: fixed;
+  bottom: 9em;
+  margin-left: 3.5em;
+}
+.para3 {
+  position: fixed;
+  bottom: 6.8em;
+  margin-left: 13em;
 }

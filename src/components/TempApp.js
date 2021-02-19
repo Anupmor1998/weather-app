@@ -8,7 +8,6 @@ function TempApp() {
   const fetchApi = async () => {
     const apiKey = "3c9ab84472c05b6f1dcca909970fe924";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=${apiKey}`;
-    // const url = `https://api.openweathermap.org/data/2.5/forecast?q=${search}&units=metric&appid=${apiKey}`;
 
     const response = await fetch(url);
     const resJSON = await response.json();
@@ -62,6 +61,8 @@ function TempApp() {
         ) : (
           ""
         )}
+        <hr></hr>
+        <p className="para3">Made with ❤️ by Anup Mor</p>
       </div>
     </>
   );
