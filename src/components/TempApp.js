@@ -7,7 +7,7 @@ function TempApp() {
 
   const fetchApi = async () => {
     const apiKey = "3c9ab84472c05b6f1dcca909970fe924";
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=${apiKey}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=${apiKey}`;
     // const url = `https://api.openweathermap.org/data/2.5/forecast?q=${search}&units=metric&appid=${apiKey}`;
 
     const response = await fetch(url);
