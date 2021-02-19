@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Temp.css";
+import "../components/Temp.css";
 
 function TempApp() {
   const [city, setCity] = useState(null);

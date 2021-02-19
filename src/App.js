@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import "./Temp.css";
 import TempApp from "./components/TempApp";
 
 function App() {
