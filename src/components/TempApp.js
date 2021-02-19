@@ -42,7 +42,7 @@ function TempApp() {
 
             <div>
               <img
-                src={`http://openweathermap.org/img/w/${city.weather[0].icon}.png`}
+                src={`https://openweathermap.org/img/w/${city.weather[0].icon}.png`}
                 alt="wthr img"
               />
             </div>
