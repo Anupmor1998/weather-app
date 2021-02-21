@@ -32,7 +32,7 @@ function TempApp() {
             value={search}
           />
           <button className="btn" onClick={fetchApi}>
-            <i class="fas fa-arrow-right"></i>
+            <i className="fas fa-arrow-right"></i>
           </button>
         </div>
 
