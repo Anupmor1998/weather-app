@@ -17,6 +17,7 @@ function TempApp() {
   const showWeather = (event) => {
     setSearch(event.target.value);
   };
+
   return (
     <>
       <div className="box">
